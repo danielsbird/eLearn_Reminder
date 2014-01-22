@@ -1,0 +1,17 @@
+{
+	"manifest_version" : 2,
+	"name" : "eLearn Dropbox Reminder",
+	"description" : "When on eLearn Dropbox page, display a reminder to include authorship statement.",
+	"author" : "Daniel Bird",
+	"version" : "1.0",
+
+	"icons" : {"48": "exclaim.png"},
+
+	"content_scripts" : [
+		{
+			"matches" : ["https://elearn.mohawkcollege.ca/d2l/lms/dropbox/user/folder_submit_files.d2l*"],
+			"js" : ["contentscript.js"]
+		}
+	]
+
+}

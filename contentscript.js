@@ -1,0 +1,1 @@
+alert("Remember to include a statement of authorship!");
